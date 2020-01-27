@@ -67,6 +67,13 @@ can do this.
 
 That's it.  Restart your webserver (if you changed php.ini), and voila.
 
+
+#### Typical installation in localhost/standalone host
+Install php, php-xml modules by (yum/apt) and then move the directory content to the DocumentRoot
+/var/www/html/
+
+
+
 #### Docker container installation
 
 - `sudo docker build -t phpsysinfo github.com/phpsysinfo/phpsysinfo`
@@ -101,6 +108,9 @@ SENSOR RELATED INFORMATION
   directory of phpSysInfo. The file must be called MBM5. Also make sure
   MBM5 doesn't add symbols to the values. This is a Quick MBM5 log parser,
   need more csv logs to make it better.
+
+
+
 
 WHAT TO DO IF IT DOESN'T WORK
 -----------------------------
